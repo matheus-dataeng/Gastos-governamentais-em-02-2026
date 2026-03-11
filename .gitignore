@@ -1,0 +1,9 @@
+gov-env/
+data/
+__pycache__/
+*.pyc
+.env
+notebooks
+run_pipeline.py
+airflow.cfg
+logs/
