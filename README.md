@@ -26,21 +26,6 @@ O objetivo é fornecer dados confiáveis e estruturados para análises e aplica�
 
 ---
 
-## 📂 Estrutura do Projeto
-
-.
-├── bronze/          # Extração dos dados (extract)
-├── silver/          # Transformações (transform)
-├── gold/            # Construção de métricas e carga (build_metrics, load)
-├── dags/            # DAG do Airflow
-├── app/             # API FastAPI
-│   ├── routers/     # Endpoints por entidade
-│   └── database.py  # Conexão com banco
-├── sql/             # Scripts SQL auxiliares
-├── .env.docker      # Variáveis de ambiente
-├── docker-compose.yml
-└── README.md
-
 
 ## 🚀 Como rodar o projeto
 
