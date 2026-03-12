@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from sqlalchemy import text
-from app.database import SessionLocal
+from app.db.database import SessionLocal
 import logging as log 
 
 router = APIRouter()

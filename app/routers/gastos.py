@@ -1,5 +1,5 @@
 import logging as log
-from app.database import SessionLocal
+from app.db.database import SessionLocal
 from fastapi import APIRouter
 from sqlalchemy import text 
 
