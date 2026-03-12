@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.log import logger_setup
+from app.utils.log import logger_setup
 import logging as log 
 from app.routers.orgaos import router as orgaos_router
 from app.routers.funcoes import router as funcoes_router
