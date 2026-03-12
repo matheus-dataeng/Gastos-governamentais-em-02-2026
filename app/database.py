@@ -9,8 +9,8 @@ load_dotenv()
 
 user = os.getenv("PG_USER")
 password = os.getenv("PG_PASSWORD")
-host = "localhost"
-port = 5454
+host = os.getenv("PG_HOST")
+port = os.getenv("PG_PORT")
 dbname = os.getenv("PG_DBNAME")
 
 if not all([user, password, host, port, dbname]):
