@@ -25,10 +25,6 @@ run:
 run-api:
 	uvicorn app.main:app --reload --port 8001
 
-# Executa testes
-test:
-	PYTHONPATH=. pytest -v
-
 # Remove arquivos temporários do Python
 clean:
 	find . -type d -name "__pycache__" -exec rm -rf {} +
