@@ -16,7 +16,6 @@ app = FastAPI(
 
 @app.get("/")
 def home():
-    logger.info()
     logger.info("Endpoit raiz")
     return{"message" : "API de Gastos governamentais"}
 

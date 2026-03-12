@@ -31,7 +31,7 @@ def get_gastos():
         result = db.execute(query)
         gastos = result.mappings().all()
         
-        logger.info("Consulta aos gastos realizados com sucesso")
+        logger.info("Consulta a tabela fato_gastos realizados com sucesso")
         return gastos
     
     except Exception as e:
