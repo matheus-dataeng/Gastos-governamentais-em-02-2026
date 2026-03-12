@@ -3,7 +3,6 @@ from app.db.database import SessionLocal
 from fastapi import APIRouter
 from sqlalchemy import text 
 
-
 router = APIRouter()
 logger = log.getLogger(__name__)
 

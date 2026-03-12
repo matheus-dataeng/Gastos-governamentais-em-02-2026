@@ -1,11 +1,11 @@
 from fastapi import FastAPI
-from app.utils.log import logger_setup
+from src.utils.logger_config import setup_log
 import logging as log 
 from app.routers.orgaos import router as orgaos_router
 from app.routers.funcoes import router as funcoes_router
 from app.routers.gastos import router as gastos_router
 
-logger_setup()
+setup_log()
 logger = log.getLogger(__name__)
 
 app = FastAPI(

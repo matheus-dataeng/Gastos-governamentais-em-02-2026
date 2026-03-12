@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 import os
 import logging as log 
 from dotenv import load_dotenv
- 
+
 logger = log.getLogger(__name__)
 load_dotenv()
 

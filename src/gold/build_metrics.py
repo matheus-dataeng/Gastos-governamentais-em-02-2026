@@ -1,6 +1,5 @@
 import pandas as pd 
 import logging as log 
-from typing import Dict
 
 logger = log.getLogger(__name__)
 
